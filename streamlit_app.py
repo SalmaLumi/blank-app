@@ -21,7 +21,7 @@ def main():
     st.title("NBA Player Success Prediction")
 
     # Input fields for player statistics
-    games_played = st.number_input("Games Played", value=30, min_value=0, step=1)
+    games_played = st.number_input("Games Played", value=40, min_value=0, step=1)
     minutes = st.number_input("Minutes Played", value=25, min_value=0, step=1)
     field_goals_made = st.number_input("Field Goals Made", value=5.0, min_value=0.0, step=0.1)
     three_point_attempts = st.number_input("Three-Point Attempts", value=3.0, min_value=0.0, step=0.1)
